@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Userpage</title>
+		<style>
+			h2{
+				color: red;
+				font-family: Arial;
+			}
+			a{
+				color: white;
+			}
+			
+			p{
+				color: white;
+			}
+			
+			div.lightblue{
+			        color: #99ddff;
+			}
+		</style>
+	</head>
+
+	<body style="background-color: black">
+		<h2>Userlist</h2>
+		<hr>
+		<br>
+		<p>This is a test website</p>
+		<a>Below are a bunch of users from ROBLOX.</a>
+		<br>
+		<a style="font-size: 30px">UserProfile List: </a>
+        	<br>
+		<div class="lightblue">
+        		<a onclick="openlinkA()">User1</a>
+        		<br>
+        		<a onclick="openlinkB()">User2</a>
+        		<br>
+        		<a onclick="openlinkC()">User3</a>
+        		<br>
+        		<a onclick="openlinkD()">User4</a>
+        		<br>
+        		<a onclick="openlinkE()">User5</a>
+        		<br>
+        	</div>
+
+		<script>
+			function openlinkA(){
+				window.open("http://www.roblox.com/users/24325288/profile");
+			}
+			function openlinkB(){
+				window.open("http://www.roblox.com/users/61393531/profile");
+			}
+			function openlinkC(){
+				window.open("http://www.roblox.com/users/45032843/profile");
+			}
+			function openlinkD(){
+				window.open("http://www.roblox.com/users/45152708/profile");
+			}
+			function openlinkE(){
+				window.open("http://www.roblox.com/users/45677548/profile");
+			}
+		</script>
+	</body>
+</htmL>
