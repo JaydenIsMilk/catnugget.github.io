@@ -1,0 +1,86 @@
+<!DOCUMENT html>
+
+<html>
+	<head>
+		<title>Combination</title>
+		
+		<style>
+			p{
+				color: red;
+				font-size: 45px;
+				text-align: center;
+			}
+			body{
+				background-color: black;
+			}
+
+			.box{
+				width: 300px;
+				padding: 25px;
+				border: 7px solid #990000;
+				margin: auto;
+				background-color: #262626;
+			}
+		</style>
+	</header>
+	
+	<body>
+		<br>
+		<p>Input Combination</p>
+		<div class="box">
+			<form>
+				<select id="A">
+					<option value="a1">1</option>
+					<option value="a2">2</option>
+					<option value="a3">3</option>
+					<option value="a4">4</option>
+				</select>
+				<select id="B">
+					<option value="b1">1</option>
+					<option value="b2">2</option>
+					<option value="b3">3</option>
+					<option value="b4">4</option>
+				</select>
+				<select id="C">
+					<option value="c1">1</option>
+					<option value="c2">2</option>
+					<option value="c3">3</option>
+					<option value="c4">4</option>
+				</select>
+				<select id="D">
+					<option value="d1">1</option>
+					<option value="d2">2</option>
+					<option value="d3">3</option>
+					<option value="d4">4</option>
+				</select>
+				<select id="E">
+					<option value="e1">1</option>
+					<option value="e2">2</option>
+					<option value="e3">3</option>
+					<option value="e4">4</option>
+				</select>
+				<select id="F">
+					<option value="f1">1</option>
+					<option value="f2">2</option>
+					<option value="f3">3</option>
+					<option value="f4">4</option>
+				</select>	
+				<button type="button" onclick="openWindowOnCombination()">Submit</button>
+			</form>
+		</div>
+
+		<script>
+			function openWindowOnCombination(){
+				if(document.getElementById("A").value == "a1" && document.getElementById("B").value == "b2" && document.getElementById("C").value == "c3" && document.getElementById("D").value == "d1" && document.getElementById("E").value == "e2" && document.getElementById("F").value == "f3"){
+					var windowA = window.open("", "A Window", "width=1000, height=500");
+					windowA.document.write("Password accepted");
+				}
+			}
+		</script>
+	</body>
+</html>
+
+
+<!-- For Cheaters: 
+The Combination is "123123" 
+-->
